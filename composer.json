@@ -64,5 +64,5 @@
             "@php artisan key:generate --ansi",
             "npm install && npm run dev"
         ]
-    },
+    }
 }
