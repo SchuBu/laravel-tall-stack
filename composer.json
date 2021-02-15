@@ -65,10 +65,4 @@
             "npm install && npm run dev"
         ]
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../packages/tw-utilitybox"
-        }
-    ]
 }
