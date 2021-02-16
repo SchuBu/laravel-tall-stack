@@ -80,34 +80,80 @@
                 <div class="grid grid-cols-1 md:grid-cols-3">
                     <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                         <div class="flex items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <i class="fa fa-ruler-combined fa-lg m-1 mr-2 text-gray-500"></i>
                             <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/1" class="underline">Layout 1</a></div>
                         </div>
 
                         <div class="ml-12">
-                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore et impedit quas repellat. Consequatur corporis culpa esse, ex illo incidunt ipsum, iure molestias nisi, non omnis porro quam tempora.</div>
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <a href="/layout/1" class="border inline-block border-gray-500"><img src="{{asset('images/layout1.png')}}" alt="Layout 1"></a>
+                            </div>
                         </div>
 
                     </div>
                     <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                         <div class="flex items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <i class="fa fa-ruler-combined fa-lg m-1 mr-2 text-gray-500"></i>
                             <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/2" class="underline">Layout 2</a></div>
                         </div>
 
                         <div class="ml-12">
-                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore et impedit quas repellat. Consequatur corporis culpa esse, ex illo incidunt ipsum, iure molestias nisi, non omnis porro quam tempora.</div>
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <a href="/layout/2" class="border inline-block border-gray-500"><img src="{{asset('images/layout2.png')}}" alt="Layout 2"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                        <div class="flex items-center">
+                            <i class="fa fa-ruler-combined fa-lg m-1 mr-2 text-gray-500"></i>
+                            <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/3" class="underline">Layout 3</a></div>
+                        </div>
+
+                        <div class="ml-12">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <a href="/layout/3" class="border inline-block border-gray-500"><img src="{{asset('images/layout3.png')}}" alt="Layout 3"></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                        <div class="flex items-center">
+                            <i class="fa fa-ruler-combined fa-lg m-1 mr-2 text-gray-500"></i>
+                            <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/4" class="underline">Layout 4</a></div>
+                        </div>
+
+                        <div class="ml-12">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <a href="/layout/4" class="border inline-block border-gray-500"><img src="{{asset('images/layout4.png')}}" alt="Layout 4"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                        <div class="flex items-center">
+                            <i class="fa fa-ruler-combined fa-lg m-1 mr-2 text-gray-500"></i>
+                            <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/5" class="underline">Layout 5</a></div>
+                        </div>
+
+                        <div class="ml-12">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <a href="/layout/5" class="border inline-block border-gray-500"><img src="{{asset('images/layout5.png')}}" alt="Layout 5"></a>
+                            </div>
                         </div>
 
                     </div>
                     <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                         <div class="flex items-center">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                            <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/3" class="underline">Layout 3</a></div>
+                            <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="/layout/6" class="underline">Layout 6</a></div>
                         </div>
 
                         <div class="ml-12">
-                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore et impedit quas repellat. Consequatur corporis culpa esse, ex illo incidunt ipsum, iure molestias nisi, non omnis porro quam tempora.</div>
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <a href="/layout/6" class="border inline-block border-gray-500"><img src="{{asset('images/layout6.png')}}" alt="Layout 6"></a>
+                            </div>
                         </div>
 
                     </div>

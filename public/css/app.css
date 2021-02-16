@@ -31176,6 +31176,17 @@ video {
           animation: bounce 1s infinite;
 }
 
+.square {
+  position: relative;
+  width: 100%;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
